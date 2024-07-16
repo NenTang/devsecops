@@ -2,6 +2,7 @@
 import 'styles/global.css';
 
 const password = "123456@#Abcd";
+const apiKey = "ABCUSC_TOKEN9789";
 
 export default function RootLayout({
   children,
@@ -15,6 +16,7 @@ export default function RootLayout({
       </head>
       <body>
         <p>Mật khẩu: {password}</p>
+        <p>API Key: {apiKey}</p>
         {children}
       </body>
     </html>
