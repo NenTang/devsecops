@@ -21,7 +21,7 @@ useDefault = true
 # on how to detect secrets
 [[rules]]
 id = "cusc-g2b-rule-1"
-description = "Luật lệ kiểm tra thông tin nhạy cảm trong code Frontend - CGate G2B"
+description = "Luật lệ kiểm tra thông tin nhạy cảm trong code Frontend - CGate G2B - 1"
 file = '''^(.*?)\.(?:j|t)(s|sx)$'''
 regex = '''(?i)(?:secret|key|signature|password|pwd|pass|token)(?:\w|\s*?)(?:=){1}(?:\s{0,10})[\"'`](.*?)[\"'`]'''
 tags = ["credentials", "hardcoded", "js"]
@@ -29,3 +29,8 @@ tags = ["credentials", "hardcoded", "js"]
   Min = "3"
   Max = "7"
   Group = "1"
+
+[[rules]]
+id = "cusc-g2b-rule-1"
+description = "Luật lệ kiểm tra thông tin nhạy cảm trong code Frontend - CGate G2B - 2"
+regex = '''(?:A3T[A-Z0-9]|CUSC_TOKEN|G2B|DNPCUONG_PASSWORD|CTU_TOKEN)[A-Z0-9]{16}'''
