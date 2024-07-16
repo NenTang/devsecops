@@ -1,4 +1,7 @@
+/* eslint-disable react/react-in-jsx-scope */
 import 'styles/global.css';
+
+const password = "123456@#Abcd";
 
 export default function RootLayout({
   children,
@@ -6,11 +9,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" data-theme="emerald">
       <head>
         <link href="https://fonts.gstatic.com" />
       </head>
-      <body>{children}</body>
+      <body>
+        <p>Mật khẩu: {password}</p>
+        {children}
+      </body>
     </html>
   );
 }
