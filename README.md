@@ -1,8 +1,10 @@
-# https://nentang.vn
-- Các bài học miễn phí về Lập trình
-- Học web Frontend cơ bản HTML-CSS-JS
-- Trang web demo http://learning.nentang.vn
-- Xem nhiều hơn tại https://nentang.vn
+# Tình trạng của source code (DevSecOps)
+[![Node.js CI](https://github.com/NenTang/devsecops/actions/workflows/node.js.yml/badge.svg)](https://github.com/NenTang/devsecops/actions/workflows/node.js.yml)
+[![gitleaks](https://github.com/NenTang/devsecops/actions/workflows/gitleaks.yml/badge.svg)](https://github.com/NenTang/devsecops/actions/workflows/gitleaks.yml)
+[![SonarCloud analysis](https://github.com/NenTang/devsecops/actions/workflows/sonarcloud.yml/badge.svg)](https://github.com/NenTang/devsecops/actions/workflows/sonarcloud.yml)
+
+# Tình trạng deploy Production
+[![Deploy Next.js site to Pages](https://github.com/NenTang/devsecops/actions/workflows/nextjs.yml/badge.svg)](https://github.com/NenTang/devsecops/actions/workflows/nextjs.yml)
 
 # Học là phải THỰC HÀNH ❤🧡💛💚💙💜🤎
 
