@@ -38,3 +38,7 @@
 - Công cụ dùng để scan quét đảm bảo code convention, rà soát bug, code...
 5. ESLint:
 - Kiểm tra việc viết code phải theo chuẩn quy định.
+6. GitLeaks:
+- Công cụ check kiểm tra các thông tin nhạy cảm có khả năng lộ trong source code (password, api key, ...)
+7. NPM Audit:
+- Công cụ kiểm tra lỗ hổng của các thư viện
