@@ -13,6 +13,7 @@ module.exports = {
         'ci',
         'test',
         'perf', // Cải thiện performance
+        'secu'  // Tăng security
       ],
     ],
   },

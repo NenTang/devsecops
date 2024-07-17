@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 import 'styles/global.css';
 
 export default function RootLayout({
@@ -6,11 +7,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" data-theme="emerald">
       <head>
         <link href="https://fonts.gstatic.com" />
       </head>
-      <body>{children}</body>
+      <body>
+        {children}
+      </body>
     </html>
   );
 }

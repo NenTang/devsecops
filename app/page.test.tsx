@@ -6,5 +6,5 @@ import Page from "./page";
 
 it("App Router: Works with Server Components", () => {
   render(<Page />);
-  expect(screen.getByRole("heading")).toHaveTextContent("Xin chào Dương Nguyễn Phú Cường | DevSecOps");
+  expect(screen.getByTestId("test")).toHaveTextContent("Xin chào Dương Nguyễn Phú Cường | DevSecOps");
 });
