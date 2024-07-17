@@ -31,6 +31,14 @@ tags = ["credentials", "hardcoded", "js"]
   Group = "1"
 
 [[rules]]
-id = "cusc-g2b-rule-1"
+id = "cusc-g2b-rule-2"
 description = "Luật lệ kiểm tra thông tin nhạy cảm trong code Frontend - CGate G2B - 2"
-regex = '''(?:A3T[A-Z0-9]|CUSC_TOKEN|G2B|DNPCUONG_PASSWORD|CTU_TOKEN)[A-Z0-9]{16}'''
+regex = '''(?i)(?:CUSC_TOKEN|G2B|DNPCUONG_PASSWORD|CTU_TOKEN)[A-Z0-9]{16}'''
+entropy = 3.5
+keywords = ["cusc_token", "g2b", "dnpcuong_password", "ctu_token"]
+
+[[rules]]
+id = "aws-access-token"
+description = "Identifies patterns indicative of AWS credentials, preventing unauthorized cloud resource access and potential data breaches."
+regex = '''(?:A3T[A-Z0-9]|AKIA|ASIA|ABIA|ACCA)[A-Z0-9]{16}'''
+keywords = ["akia", "asia", "abia", "acca"]
