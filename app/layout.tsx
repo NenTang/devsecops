@@ -9,7 +9,6 @@ export default function RootLayout({
   return (
     <html lang="en" data-theme="emerald">
       <head>
-        <link href="https://fonts.gstatic.com" />
       </head>
       <body>
         {children}
