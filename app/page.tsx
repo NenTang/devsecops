@@ -1,4 +1,6 @@
 import React from "react";
+import Image from 'next/image';
+import background from '../public/img/workshop-devsecops-bao-mat-va-van-hanh-he-thong-dnpcuong-nentang.vn.png';
 
 export const metadata = {
   title: "Workshop Demo DevSecOps",
@@ -12,8 +14,8 @@ export default function Page() {
 
         <div className="card glass">
           <figure>
-            <img
-              src="/img/workshop-devsecops-bao-mat-va-van-hanh-he-thong-dnpcuong-nentang.vn.png"
+            <Image
+              src={background}
               alt="car!"
             />
           </figure>
