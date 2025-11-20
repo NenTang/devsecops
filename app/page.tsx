@@ -27,7 +27,7 @@ export default function Page() {
             </p>
             <h3>Chuyên đề về DevSecOps</h3>
             <ul className="list-disc">
-              <li>Thời gian: 14h00 ~ 15h30 ngày 19/07/2024 (Thứ Sáu)</li>
+              <li>Thời gian: 09h00 ~ 11h00 ngày 21/11/2025 (Thứ Sáu)</li>
               <li>
                 Địa chỉ: Khu III - Đại học Cần Thơ; Số 01 Lý Tự Trọng, Quận Ninh Kiều, TP Cần Thơ
               </li>
